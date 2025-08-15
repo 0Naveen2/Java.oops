@@ -11,14 +11,18 @@ public abstract class Bank {
     abstract void writeData();
 
     void copyData() {
-        // you can write all your inplementation in this and access it by makin ghte
-        // object of it but due to abstract keyword you cannot make the object of
-        // abstract class and you can't access it.
+        /*
+         * you can write all your inplementation in this and access it by making the
+         * object of it but due to abstract keyword you cannot make the object of
+         * abstract class and you can't access it.
+         */
     }
 }
 
-class Admin extends Bank { // now you can make the object of this admin class and give the access to the
-                           // person that you want.
+class Admin extends Bank { /*
+                            * now you can make the object of this admin class and give the access to the
+                            * person that you want.
+                            */
     void readData() {
         System.out.println("Naveen");
     }
