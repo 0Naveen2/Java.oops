@@ -2,9 +2,9 @@ package Inheritance;
 
 class SingleLevel {
     String name = "Naveen";
-    String Surname = "Kumar";
+    String SurName = "Kumar";
 }
 
-class NextLevel extends SingleLevel {
-    String name = " Byass";
+class SingleNextLevel extends SingleLevel {
+    String name = "Byass";
 }

@@ -5,10 +5,10 @@ class MultiLevel {
     String Surname = "Kumar";
 }
 
-class NextLevel extends MultiLevel {
-    String name = " Byass";
+class MultiNextLevel extends MultiLevel {
+    String name = "Byass";
 }
 
-class NextToNextlevel extends NextLevel {
+class MultiNextToNextLevel extends MultiNextLevel {
     String name = "Rohit";
 }
